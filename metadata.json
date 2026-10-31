@@ -1,0 +1,10 @@
+{
+  "name": "sirtxod-AI - Neural Text-to-Speech Studio & Voice Cloning",
+  "description": "Next-generation neural text-to-speech studio with multilingual synthesis, custom voice cloning, multi-format audio downloads (WAV, MP3), project management, and offline audio library.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "sirtxod-AI - Neural Text-to-Speech Studio & Voice Cloning",
+  "short_name": "sirtxod-AI",
+  "description": "Next-generation neural text-to-speech studio with multilingual synthesis, custom voice cloning, and offline audio library.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#2dd4bf",
+  "background_color": "#020617",
+  "categories": ["productivity", "audio", "utilities"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

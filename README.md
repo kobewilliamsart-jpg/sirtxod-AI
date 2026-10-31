@@ -1,2 +1,14 @@
-# sirtxod-AI
-sirtxod-AI Neural Text-to-Speech Studio turns your text into natural-sounding speech in your browser, with no limits, no sign-ups and no API keys. Pick from five voices in 16 languages, adjust speed and pitch, and save your audio as WAV or MP3. You can also match a voice to your own recording, organize work into projects
+# sirtxod-AI Neural TTS Studio (free, no quota)
+
+Speech is generated **in the user's browser** with open-source models:
+- English: Kokoro-82M (WebGPU, falls back to WASM)
+- Other languages: Meta MMS-TTS via transformers.js
+
+Models download once from the Hugging Face CDN and are cached by the browser. No API key, no server cost, no usage limits.
+
+## Run
+1. `npm install`
+2. `npm run dev`
+
+## Deploy
+`npm run build` then `npm start` (or host `dist/` on any static host; the server only serves files and /api/version).
